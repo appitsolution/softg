@@ -1,0 +1,190 @@
+@media screen and(max-width: 470px) {
+  .header__navigation {
+    display: none;
+  }
+  .header__navigation-mobile {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    background: #0c1013;
+    transition: all 250ms linear;
+    &.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    &-close {
+      appearance: none;
+      border: none;
+      background: none;
+      position: absolute;
+      top: 30px;
+      right: 20px;
+      &-icon {
+        width: 20px;
+        height: 20px;
+      }
+    }
+    &-floor {
+      display: flex;
+      align-items: center;
+      &-button {
+        appearance: none;
+        border: none;
+        background: none;
+        margin-left: auto;
+        padding: 40px 0;
+        margin-right: 20px;
+        &:focus {
+          outline: none;
+        }
+      }
+      &-logotype {
+        display: flex;
+        margin-right: auto;
+        max-width: 70%;
+      }
+      &-open {
+        display: flex;
+      }
+    }
+    &-menu {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding-left: 50px;
+      padding-top: 50px;
+      &-item {
+        &-link {
+          font-family: "DM Sans";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 20px;
+          color: #fcfcfc;
+          cursor: pointer;
+          transition: color 250ms linear;
+          text-decoration: none;
+          &:hover {
+            color: #c3882f;
+          }
+          &.active {
+            color: #c3882f;
+          }
+        }
+      }
+    }
+    &-lang {
+      display: flex;
+      margin-top: 20px;
+      gap: 5px;
+      padding-left: 50px;
+      &-item {
+        &-link {
+          border: none;
+          background: none;
+          font-family: "DM Sans";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 20px;
+          color: rgba(252, 252, 252, 1);
+          cursor: pointer;
+          &:hover {
+            color: #c3882f;
+          }
+          &:focus {
+            outline: none;
+          }
+          &.active {
+            border: none;
+            background: none;
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 20px;
+            color: #c3882f;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and(min-width: 876px) {
+  .header__navigation-mobile {
+    display: none;
+  }
+  .header__navigation-mobile-floor {
+    display: none;
+  }
+  .header {
+    background: transparent;
+    padding: 40px 0;
+  }
+  .header__navigation {
+    display: flex;
+    justify-content: space-between;
+    &-menu {
+      display: flex;
+      gap: 40px;
+      &-item {
+        &-link {
+          font-family: "DM Sans";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 20px;
+          color: rgba(252, 252, 252, 1);
+          cursor: pointer;
+          transition: color 250ms linear;
+          text-decoration: none;
+          &:hover {
+            color: #c3882f;
+          }
+          &.active {
+            color: #c3882f;
+          }
+        }
+      }
+    }
+    &-lang {
+      display: flex;
+      gap: 4px;
+      &-item {
+        &-link {
+          border: none;
+          background: none;
+          font-family: "DM Sans";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 20px;
+          color: rgba(252, 252, 252, 1);
+          cursor: pointer;
+          &:hover {
+            color: #c3882f;
+          }
+          &:focus {
+            outline: none;
+          }
+          &.active {
+            border: none;
+            background: none;
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 20px;
+            color: #c3882f;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

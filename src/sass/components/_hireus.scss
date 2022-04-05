@@ -1,0 +1,466 @@
+@media screen and(max-width: 470px) {
+  .hireus {
+    background: rgba(252, 252, 252, 1);
+    overflow: hidden;
+    &__block {
+      display: flex;
+      justify-content: space-between;
+      background: #f7f8f7;
+      border-radius: 5px;
+      padding: 80px 0px;
+      &-devops {
+        display: none;
+        &-item {
+          display: flex;
+          align-items: center;
+          &-img {
+            border-radius: 50%;
+          }
+          &-toomb {
+            display: flex;
+            flex-direction: column;
+            margin-left: 30px;
+          }
+          &-head {
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 26px;
+            color: #0c1013;
+            margin-bottom: 5px;
+          }
+          &-text {
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 20px;
+            color: #c3882f;
+            margin-bottom: 10px;
+          }
+          &-mail {
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 30px;
+            color: #0c1013;
+          }
+        }
+      }
+      &-form {
+        max-width: 630px;
+        width: 100%;
+        &-submit {
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          width: 100%;
+          margin-top: 60px;
+          &-toomb {
+            display: flex;
+            gap: 10px;
+            width: 100%;
+          }
+          &-name {
+            width: calc(50% - 5px);
+            padding: 10px 20px;
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 30px;
+            color: #a6a9ac;
+            background: #fcfcfc;
+            border: 1px solid #fcfcfc;
+            box-sizing: border-box;
+            border-radius: 5px;
+            &:focus {
+              outline: none;
+            }
+            &::placeholder {
+              font-family: "DM Sans";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 15px;
+              line-height: 30px;
+              color: #a6a9ac;
+              background: #fcfcfc;
+            }
+          }
+          &-phone {
+            width: calc(50% - 5px);
+            padding: 10px 20px;
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 30px;
+            color: #a6a9ac;
+            background: #fcfcfc;
+            border: 1px solid #fcfcfc;
+            box-sizing: border-box;
+            border-radius: 5px;
+            &:focus {
+              outline: none;
+            }
+            &::placeholder {
+              font-family: "DM Sans";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 15px;
+              line-height: 30px;
+              color: #a6a9ac;
+              background: #fcfcfc;
+            }
+          }
+          &-email {
+            width: 100%;
+            padding: 10px 20px;
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 30px;
+            color: #a6a9ac;
+            background: #fcfcfc;
+            border: 1px solid #fcfcfc;
+            box-sizing: border-box;
+            border-radius: 5px;
+            &:focus {
+              outline: none;
+            }
+            &::placeholder {
+              font-family: "DM Sans";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 15px;
+              line-height: 30px;
+              color: #a6a9ac;
+              background: #fcfcfc;
+            }
+          }
+          &-message {
+            width: 100%;
+            padding: 10px 20px;
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 30px;
+            color: #a6a9ac;
+            background: #fcfcfc;
+            border: 1px solid #fcfcfc;
+            box-sizing: border-box;
+            border-radius: 5px;
+            min-height: 180px;
+            resize: none;
+            &:focus {
+              outline: none;
+            }
+            &::placeholder {
+              font-family: "DM Sans";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 15px;
+              line-height: 30px;
+              color: #a6a9ac;
+              background: #fcfcfc;
+            }
+          }
+          &-privacy {
+            cursor: pointer;
+            appearance: none;
+            width: 30px;
+            height: 30px;
+            background: #fcfcfc;
+            border-radius: 1px;
+            user-select: none;
+            &:checked {
+              width: 30px;
+              height: 30px;
+              border-radius: 5px;
+              background: #c3882f;
+            }
+            &-label {
+              display: flex;
+              align-items: center;
+              gap: 14px;
+              cursor: pointer;
+            }
+            &-text {
+              font-family: "DM Sans";
+              font-style: normal;
+              font-weight: 500;
+              user-select: none;
+              font-size: 15px;
+              line-height: 30px;
+              color: rgba(12, 16, 19, 0.6);
+            }
+            &-toomb {
+              display: flex;
+              align-items: center;
+              flex-direction: column-reverse;
+              justify-content: space-between;
+              gap: 10px;
+            }
+          }
+          &-button {
+            max-width: 267px;
+            width: 100%;
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 20px;
+            text-align: center;
+            color: #fcfcfc;
+            border: 2px solid #c3882f;
+            box-sizing: border-box;
+            border-radius: 3px;
+            background: #c3882f;
+            padding: 20px 25px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and(min-width: 876px) {
+  .hireus {
+    padding: 80px 40px;
+    background: rgba(252, 252, 252, 1);
+    overflow: hidden;
+    &__block {
+      display: flex;
+      justify-content: space-between;
+      background: #f7f8f7;
+      border-radius: 5px;
+      padding: 80px 70px;
+      &-devops {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        &-item {
+          display: flex;
+          align-items: center;
+          &-img {
+            border-radius: 50%;
+          }
+          &-toomb {
+            display: flex;
+            flex-direction: column;
+            margin-left: 30px;
+          }
+          &-head {
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 26px;
+            color: #0c1013;
+            margin-bottom: 5px;
+          }
+          &-text {
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 20px;
+            color: #c3882f;
+            margin-bottom: 10px;
+          }
+          &-mail {
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 30px;
+            color: #0c1013;
+            cursor: pointer;
+            text-decoration: none;
+          }
+        }
+      }
+      &-form {
+        max-width: 630px;
+        width: 100%;
+        margin-left: 30px;
+        &-submit {
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          width: 100%;
+          margin-top: 60px;
+          &-toomb {
+            display: flex;
+            gap: 10px;
+            width: 100%;
+          }
+          &-name {
+            width: calc(50% - 5px);
+            padding: 10px 20px;
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 30px;
+            color: #a6a9ac;
+            background: #fcfcfc;
+            border: 1px solid #fcfcfc;
+            box-sizing: border-box;
+            border-radius: 5px;
+            &:focus {
+              outline: none;
+            }
+            &::placeholder {
+              font-family: "DM Sans";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 15px;
+              line-height: 30px;
+              color: #a6a9ac;
+              background: #fcfcfc;
+            }
+          }
+          &-phone {
+            width: calc(50% - 5px);
+            padding: 10px 20px;
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 30px;
+            color: #a6a9ac;
+            background: #fcfcfc;
+            border: 1px solid #fcfcfc;
+            box-sizing: border-box;
+            border-radius: 5px;
+            &:focus {
+              outline: none;
+            }
+            &::placeholder {
+              font-family: "DM Sans";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 15px;
+              line-height: 30px;
+              color: #a6a9ac;
+              background: #fcfcfc;
+            }
+          }
+          &-email {
+            width: 100%;
+            padding: 10px 20px;
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 30px;
+            color: #a6a9ac;
+            background: #fcfcfc;
+            border: 1px solid #fcfcfc;
+            box-sizing: border-box;
+            border-radius: 5px;
+            &:focus {
+              outline: none;
+            }
+            &::placeholder {
+              font-family: "DM Sans";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 15px;
+              line-height: 30px;
+              color: #a6a9ac;
+              background: #fcfcfc;
+            }
+          }
+          &-message {
+            width: 100%;
+            padding: 10px 20px;
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 30px;
+            color: #a6a9ac;
+            background: #fcfcfc;
+            border: 1px solid #fcfcfc;
+            box-sizing: border-box;
+            border-radius: 5px;
+            min-height: 180px;
+            resize: none;
+            &:focus {
+              outline: none;
+            }
+            &::placeholder {
+              font-family: "DM Sans";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 15px;
+              line-height: 30px;
+              color: #a6a9ac;
+              background: #fcfcfc;
+            }
+          }
+          &-privacy {
+            cursor: pointer;
+            appearance: none;
+            width: 30px;
+            height: 30px;
+            background: #fcfcfc;
+            border-radius: 1px;
+            user-select: none;
+            &:checked {
+              width: 30px;
+              height: 30px;
+              border-radius: 5px;
+              background: #c3882f;
+            }
+            &-label {
+              display: flex;
+              align-items: center;
+              gap: 14px;
+              cursor: pointer;
+            }
+            &-text {
+              font-family: "DM Sans";
+              font-style: normal;
+              font-weight: 500;
+              user-select: none;
+              font-size: 15px;
+              line-height: 30px;
+              color: rgba(12, 16, 19, 0.6);
+            }
+            &-toomb {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            }
+          }
+          &-button {
+            max-width: 267px;
+            width: 100%;
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 20px;
+            text-align: center;
+            color: #fcfcfc;
+            border: 2px solid #c3882f;
+            box-sizing: border-box;
+            border-radius: 3px;
+            background: #c3882f;
+            padding: 20px 25px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,267 @@
+@media screen and(max-width: 480px) {
+  .joinuspage__hero {
+    position: relative;
+    background: url("../images/collage.jpg");
+    height: 613px;
+    &-toomb {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(12, 16, 19, 0.9);
+      // display: flex;
+      // justify-content: center;
+      // align-items: center;
+    }
+    &-block {
+      margin-top: 100px;
+    }
+    &-head {
+      margin: 0 auto;
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 63px;
+      text-align: center;
+      letter-spacing: -0.01em;
+      max-width: 578px;
+      color: #fcfcfc;
+      &-span {
+        color: #c3882f;
+      }
+    }
+    &-text {
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 39px;
+      text-align: center;
+      letter-spacing: -0.03em;
+      color: #a6a9ac;
+      margin-top: 30px;
+    }
+  }
+  .joinuspage__position {
+    padding: 80px 0;
+    background: #f7f8f7;
+    overflow: hidden;
+    &-head {
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 52px;
+      letter-spacing: -0.03em;
+      color: #0c1013;
+      text-align: center;
+    }
+    &-list {
+      margin-top: 60px;
+      gap: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      &-item {
+        &-toomb {
+          &-img {
+            width: 100%;
+            display: block;
+          }
+        }
+        &-content {
+          background: #fcfcfc;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+          border-bottom-left-radius: 5px;
+          border-bottom-right-radius: 5px;
+          display: flex;
+          flex-direction: column;
+          gap: 40px;
+          padding: 50px 0px;
+          &-head {
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 26px;
+            text-align: center;
+            color: #0c1013;
+          }
+          &-text {
+            display: flex;
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 20px;
+            text-align: center;
+            color: #0c1013;
+            position: relative;
+            margin: 0 auto;
+            padding-bottom: 3px;
+            cursor: pointer;
+            &::after {
+              content: "";
+              position: absolute;
+              top: 100%;
+              left: 50%;
+              width: 120%;
+              height: 1px;
+              border-radius: 10px;
+              background: rgba(195, 136, 47, 1);
+              transform: translateX(-50%);
+              transition: all 250ms linear;
+            }
+            &:hover.joinuspage__position-list-item-content-text::after {
+              content: "";
+              position: absolute;
+              top: 100%;
+              left: 50%;
+              width: 30%;
+              height: 1px;
+              border-radius: 10px;
+              background: rgba(195, 136, 47, 1);
+              transform: translateX(-50%);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and(min-width: 876px) {
+  .joinuspage__hero {
+    position: relative;
+    background: url("../images/collage.jpg");
+    height: 613px;
+    &-toomb {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(12, 16, 19, 0.9);
+      // display: flex;
+      // justify-content: center;
+      // align-items: center;
+    }
+    &-block {
+      margin-top: 100px;
+    }
+    &-head {
+      margin: 0 auto;
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 63px;
+      text-align: center;
+      letter-spacing: -0.01em;
+      max-width: 578px;
+      color: #fcfcfc;
+      &-span {
+        color: #c3882f;
+      }
+    }
+    &-text {
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 39px;
+      text-align: center;
+      letter-spacing: -0.03em;
+      color: #a6a9ac;
+      margin-top: 30px;
+    }
+  }
+  .joinuspage__position {
+    padding: 80px 0;
+    background: #f7f8f7;
+    overflow: hidden;
+    &-head {
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 52px;
+      letter-spacing: -0.03em;
+      color: #0c1013;
+      text-align: center;
+    }
+    &-list {
+      margin-top: 60px;
+      gap: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      &-item {
+        width: calc((100% - 100px) / 3);
+        &-toomb {
+          &-img {
+            width: 100%;
+            display: block;
+          }
+        }
+        &-content {
+          background: #fcfcfc;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+          border-bottom-left-radius: 5px;
+          border-bottom-right-radius: 5px;
+          display: flex;
+          flex-direction: column;
+          gap: 40px;
+          padding: 50px 0px;
+          &-head {
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 26px;
+            text-align: center;
+            color: #0c1013;
+          }
+          &-text {
+            display: flex;
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 20px;
+            text-align: center;
+            color: #0c1013;
+            position: relative;
+            margin: 0 auto;
+            padding-bottom: 3px;
+            cursor: pointer;
+            &::after {
+              content: "";
+              position: absolute;
+              top: 100%;
+              left: 50%;
+              width: 120%;
+              height: 1px;
+              border-radius: 10px;
+              background: rgba(195, 136, 47, 1);
+              transform: translateX(-50%);
+              transition: all 250ms linear;
+            }
+            &:hover.joinuspage__position-list-item-content-text::after {
+              content: "";
+              position: absolute;
+              top: 100%;
+              left: 50%;
+              width: 30%;
+              height: 1px;
+              border-radius: 10px;
+              background: rgba(195, 136, 47, 1);
+              transform: translateX(-50%);
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,194 @@
+@media screen and(max-width: 470px) {
+  .footer {
+    padding: 50px 0;
+    background: #0c1013;
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 30px;
+      &-item {
+        &-logo {
+          cursor: pointer;
+        }
+        &-office {
+          display: flex;
+          flex-direction: column;
+          &-item {
+            &:first-child {
+              margin-bottom: 20px;
+            }
+            &-link {
+              font-family: "DM Sans";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 15px;
+              line-height: 20px;
+              color: #fcfcfc;
+              cursor: pointer;
+              transition: color 250ms linear;
+              &:hover {
+                color: #c3882f;
+              }
+            }
+            &-address {
+              font-family: "DM Sans";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 15px;
+              line-height: 25px;
+              color: #fcfcfc;
+              max-width: 138px;
+              margin-bottom: 17px;
+            }
+            &-text {
+              font-family: "DM Sans";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 15px;
+              line-height: 25px;
+              color: #fcfcfc;
+              max-width: 138px;
+            }
+          }
+        }
+        &-meetus {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          &-item {
+            &:first-child {
+              margin-bottom: 20px;
+            }
+            &-link {
+              font-family: "DM Sans";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 15px;
+              line-height: 20px;
+              color: #fcfcfc;
+              cursor: pointer;
+              transition: color 250ms linear;
+              &:hover {
+                color: #c3882f;
+              }
+            }
+          }
+        }
+        &-social {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 25px;
+          max-width: 167px;
+          &-item {
+            width: calc((100% - 50px) / 3);
+            &-link {
+              display: block;
+              cursor: pointer;
+              &-img {
+                display: block;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and(min-width: 876px) {
+  .footer {
+    padding: 50px 0;
+    background: #0c1013;
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      &-item {
+        &-logo {
+          cursor: pointer;
+        }
+        &-office {
+          display: flex;
+          flex-direction: column;
+          &-item {
+            &:first-child {
+              margin-bottom: 20px;
+            }
+            &-link {
+              font-family: "DM Sans";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 15px;
+              line-height: 20px;
+              color: #fcfcfc;
+              cursor: pointer;
+              transition: color 250ms linear;
+              &:hover {
+                color: #c3882f;
+              }
+            }
+            &-address {
+              font-family: "DM Sans";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 15px;
+              line-height: 25px;
+              color: #fcfcfc;
+              max-width: 138px;
+              margin-bottom: 17px;
+            }
+            &-text {
+              font-family: "DM Sans";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 15px;
+              line-height: 25px;
+              color: #fcfcfc;
+              max-width: 138px;
+            }
+          }
+        }
+        &-meetus {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          &-item {
+            &:first-child {
+              margin-bottom: 20px;
+            }
+            &-link {
+              font-family: "DM Sans";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 15px;
+              line-height: 20px;
+              color: #fcfcfc;
+              cursor: pointer;
+              transition: color 250ms linear;
+              &:hover {
+                color: #c3882f;
+              }
+            }
+          }
+        }
+        &-social {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 25px;
+          max-width: 167px;
+          &-item {
+            width: calc((100% - 50px) / 3);
+            &-link {
+              display: block;
+              cursor: pointer;
+              &-img {
+                display: block;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,133 @@
+.share {
+  padding: 80px 0;
+  background: rgba(247, 248, 247, 1);
+  overflow: hidden;
+  &__block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &-head {
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 52px;
+      letter-spacing: -0.03em;
+      color: #0c1013;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    &-text {
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 28px;
+      text-align: center;
+      color: #0c1013;
+      &-span {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        color: #c3882f;
+      }
+    }
+    &-form {
+      margin-top: 50px;
+      max-width: 603px;
+      width: 100%;
+      &-block {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+      }
+      &-email {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 30px;
+        text-align: center;
+        color: rgba(12, 16, 19, 0.6);
+        width: calc(55% - 5px);
+        background: #fcfcfc;
+        border: 1px solid #f0f0f0;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding: 17px 0;
+        &:focus {
+          outline: none;
+        }
+        &::placeholder {
+          font-family: "DM Sans";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 30px;
+          text-align: center;
+          color: rgba(12, 16, 19, 0.6);
+        }
+      }
+      &-button {
+        width: calc(45% - 5px);
+        padding: 17px 0;
+        border: 2px solid #c3882f;
+        box-sizing: border-box;
+        border-radius: 3px;
+        background: #c3882f;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        color: #fcfcfc;
+        cursor: pointer;
+      }
+      &-policy {
+        appearance: none;
+        background: #fcfcfc;
+        border: 1px solid #a6a9ac;
+        box-sizing: border-box;
+        border-radius: 2px;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        z-index: 15;
+        &:checked {
+          background: #c3882f;
+          border: 1px solid #a6a9ac;
+          box-sizing: border-box;
+          border-radius: 2px;
+        }
+        &-toomb {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 30px;
+          cursor: pointer;
+        }
+        &-text {
+          margin-left: 10px;
+          font-family: "DM Sans";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 13px;
+          line-height: 30px;
+          color: rgba(12, 16, 19, 0.6);
+          user-select: none;
+        }
+      }
+    }
+    &-icon {
+      position: absolute;
+      bottom: -80px;
+      left: 0;
+    }
+  }
+}

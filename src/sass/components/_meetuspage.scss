@@ -1,0 +1,319 @@
+@media screen and(max-width: 480px) {
+  .meetuspage {
+    padding: 80px 0;
+    &__hero {
+      position: relative;
+      height: 616px;
+      background: url("../images/collage.jpg");
+      &-toomb {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(12, 16, 19, 0.7);
+        &-head {
+          font-family: "DM Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 40px;
+          line-height: 40px;
+          letter-spacing: -0.03em;
+          color: #fcfcfc;
+          max-width: 391px;
+          margin-top: 70px;
+          margin-bottom: 30px;
+          &-span {
+            color: #c3882f;
+          }
+        }
+        &-text {
+          font-family: "DM Sans";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 30px;
+          max-width: 326px;
+          letter-spacing: -0.01em;
+
+          color: #b1b1b0;
+        }
+      }
+    }
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      margin-top: 80px;
+      gap: 50px;
+      &-text {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: #c3882f;
+        margin-top: 15px;
+        margin-bottom: 34px;
+      }
+      &-item {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        &-toomb {
+          position: relative;
+          &-img {
+            width: 100%;
+          }
+          &-list {
+            position: absolute;
+            bottom: 20px;
+            right: 0;
+            display: flex;
+            align-items: center;
+            gap: 19px;
+            padding: 13px 30px;
+            background: rgba(252, 252, 252, 0.6);
+            border-radius: 1px;
+            &-item {
+              &-link {
+                cursor: pointer;
+              }
+            }
+          }
+        }
+        &-content {
+          &-head {
+            display: inline-flex;
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 33px;
+            letter-spacing: -0.03em;
+            color: #0c1013;
+            margin-bottom: 40px;
+            position: relative;
+            &::after {
+              content: "";
+              position: absolute;
+              top: 100%;
+              left: 50%;
+              width: 70%;
+              height: 1px;
+              border-radius: 10px;
+              background: rgba(195, 136, 47, 1);
+              transform: translateX(-50%);
+              transition: all 250ms linear;
+            }
+          }
+          &-text {
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 28px;
+            color: #0c1013;
+            margin-bottom: 50px;
+            max-width: 550px;
+          }
+          &-link {
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 28px;
+            color: #0c1013;
+            text-decoration: none;
+            position: relative;
+            cursor: pointer;
+            &::after {
+              content: "";
+              position: absolute;
+              top: 100%;
+              left: 50%;
+              width: 100%;
+              height: 1px;
+              border-radius: 10px;
+              background: rgba(195, 136, 47, 1);
+              transform: translateX(-50%);
+              transition: all 250ms linear;
+            }
+            &:hover.meetus__list-item-content-link::after {
+              content: "";
+              position: absolute;
+              top: 100%;
+              left: 50%;
+              width: 30%;
+              height: 1px;
+              border-radius: 10px;
+              background: rgba(195, 136, 47, 1);
+              transform: translateX(-50%);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and(min-width: 876px) {
+  .meetuspage {
+    padding: 80px 0;
+    &__hero {
+      position: relative;
+      height: 616px;
+      background: url("../images/collage.jpg");
+      &-toomb {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(12, 16, 19, 0.7);
+        &-head {
+          font-family: "DM Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 50px;
+          line-height: 60px;
+          letter-spacing: -0.03em;
+          color: #fcfcfc;
+          max-width: 391px;
+          margin-top: 70px;
+          margin-bottom: 30px;
+          &-span {
+            color: #c3882f;
+          }
+        }
+        &-text {
+          font-family: "DM Sans";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 25px;
+          line-height: 35px;
+          max-width: 326px;
+          letter-spacing: -0.01em;
+
+          color: #b1b1b0;
+        }
+      }
+    }
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      margin-top: 80px;
+      gap: 50px;
+      &-text {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: #c3882f;
+        margin-top: 15px;
+        margin-bottom: 34px;
+      }
+      &-item {
+        display: flex;
+        gap: 60px;
+        &-toomb {
+          position: relative;
+          &-img {
+            width: 100%;
+          }
+          &-list {
+            position: absolute;
+            bottom: 20px;
+            right: 0;
+            display: flex;
+            align-items: center;
+            gap: 19px;
+            padding: 13px 30px;
+            background: rgba(252, 252, 252, 0.6);
+            border-radius: 1px;
+            &-item {
+              &-link {
+                cursor: pointer;
+              }
+            }
+          }
+        }
+        &-content {
+          &-head {
+            display: inline-flex;
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 33px;
+            letter-spacing: -0.03em;
+            color: #0c1013;
+            margin-bottom: 40px;
+            position: relative;
+            &::after {
+              content: "";
+              position: absolute;
+              top: 100%;
+              left: 50%;
+              width: 70%;
+              height: 1px;
+              border-radius: 10px;
+              background: rgba(195, 136, 47, 1);
+              transform: translateX(-50%);
+              transition: all 250ms linear;
+            }
+          }
+          &-text {
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 28px;
+            color: #0c1013;
+            margin-bottom: 50px;
+            max-width: 550px;
+          }
+          &-link {
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 28px;
+            color: #0c1013;
+            text-decoration: none;
+            position: relative;
+            cursor: pointer;
+            &::after {
+              content: "";
+              position: absolute;
+              top: 100%;
+              left: 50%;
+              width: 100%;
+              height: 1px;
+              border-radius: 10px;
+              background: rgba(195, 136, 47, 1);
+              transform: translateX(-50%);
+              transition: all 250ms linear;
+            }
+            &:hover.meetus__list-item-content-link::after {
+              content: "";
+              position: absolute;
+              top: 100%;
+              left: 50%;
+              width: 30%;
+              height: 1px;
+              border-radius: 10px;
+              background: rgba(195, 136, 47, 1);
+              transform: translateX(-50%);
+            }
+          }
+        }
+      }
+    }
+  }
+}

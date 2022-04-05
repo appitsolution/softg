@@ -1,0 +1,38 @@
+.workfor {
+  padding: 80px 0;
+  background: #fcfcfc;
+  overflow: hidden;
+  &-head {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: -0.03em;
+    color: #0c1013;
+    text-align: center;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 45px;
+    justify-content: center;
+    &-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 150px;
+      height: 150px;
+      background: #ffffff;
+      box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      &-img {
+        width: 100%;
+      }
+      &-link {
+        cursor: pointer;
+      }
+    }
+  }
+}

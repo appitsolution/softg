@@ -1,0 +1,316 @@
+@media screen and(max-width: 470px) {
+  .meetus {
+    padding: 80px 0;
+    background: #fcfcfc;
+    overflow: hidden;
+    &-head {
+      text-align: center;
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 52px;
+      letter-spacing: -0.03em;
+      color: #0c1013;
+      margin-bottom: 40px;
+    }
+    &__list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      &-text {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: #c3882f;
+        margin-top: 15px;
+        margin-bottom: 34px;
+      }
+      &-item {
+        &-toomb {
+          position: relative;
+          &-img {
+            width: 100%;
+          }
+          &-list {
+            position: absolute;
+            bottom: 20px;
+            right: 0;
+            display: flex;
+            align-items: center;
+            gap: 19px;
+            padding: 13px 30px;
+            background: rgba(252, 252, 252, 0.6);
+            border-radius: 1px;
+            &-item {
+              &-link {
+                cursor: pointer;
+              }
+            }
+          }
+        }
+        &-content {
+          &-head {
+            display: inline-flex;
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 33px;
+            letter-spacing: -0.03em;
+            color: #0c1013;
+            margin-bottom: 40px;
+            position: relative;
+            &::after {
+              content: "";
+              position: absolute;
+              top: 100%;
+              left: 50%;
+              width: 70%;
+              height: 1px;
+              border-radius: 10px;
+              background: rgba(195, 136, 47, 1);
+              transform: translateX(-50%);
+              transition: all 250ms linear;
+            }
+          }
+          &-text {
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 28px;
+            color: #0c1013;
+            margin-bottom: 50px;
+            max-width: 550px;
+          }
+          &-link {
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 28px;
+            color: #0c1013;
+            position: relative;
+            text-decoration: none;
+            cursor: pointer;
+            &::after {
+              content: "";
+              position: absolute;
+              top: 100%;
+              left: 50%;
+              width: 100%;
+              height: 1px;
+              border-radius: 10px;
+              background: rgba(195, 136, 47, 1);
+              transform: translateX(-50%);
+              transition: all 250ms linear;
+            }
+            &:hover.meetus__list-item-content-link::after {
+              content: "";
+              position: absolute;
+              top: 100%;
+              left: 50%;
+              width: 30%;
+              height: 1px;
+              border-radius: 10px;
+              background: rgba(195, 136, 47, 1);
+              transform: translateX(-50%);
+            }
+          }
+        }
+      }
+    }
+    &__buttons {
+      display: flex;
+      justify-content: flex-end;
+      &-button {
+        display: flex;
+        align-items: center;
+        border: none;
+        background: none;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: #c3882f;
+        cursor: pointer;
+        &-block {
+          margin-left: 15px;
+          padding: 20px;
+          padding-right: 0;
+          border: 1.5px solid #c3882f;
+          box-sizing: border-box;
+          border-radius: 5px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+@media screen and(min-width: 876px) {
+  .meetus {
+    padding: 80px 0;
+    background: #fcfcfc;
+    &-head {
+      text-align: center;
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 52px;
+      letter-spacing: -0.03em;
+      color: #0c1013;
+      margin-bottom: 40px;
+    }
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      &-text {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: #c3882f;
+        margin-top: 15px;
+        margin-bottom: 34px;
+      }
+      &-item {
+        &-toomb {
+          position: relative;
+          &-img {
+            width: 100%;
+          }
+          &-list {
+            position: absolute;
+            bottom: 20px;
+            right: 0;
+            display: flex;
+            align-items: center;
+            gap: 19px;
+            padding: 13px 30px;
+            background: rgba(252, 252, 252, 0.6);
+            border-radius: 1px;
+            &-item {
+              &-link {
+                cursor: pointer;
+              }
+            }
+          }
+        }
+        &-content {
+          &-head {
+            display: inline-flex;
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 33px;
+            letter-spacing: -0.03em;
+            color: #0c1013;
+            margin-bottom: 40px;
+            position: relative;
+            &::after {
+              content: "";
+              position: absolute;
+              top: 100%;
+              left: 50%;
+              width: 70%;
+              height: 1px;
+              border-radius: 10px;
+              background: rgba(195, 136, 47, 1);
+              transform: translateX(-50%);
+              transition: all 250ms linear;
+            }
+          }
+          &-text {
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 28px;
+            color: #0c1013;
+            margin-bottom: 50px;
+            max-width: 550px;
+          }
+          &-link {
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 28px;
+            color: #0c1013;
+            position: relative;
+            text-decoration: none;
+            cursor: pointer;
+            &::after {
+              content: "";
+              position: absolute;
+              top: 100%;
+              left: 50%;
+              width: 100%;
+              height: 1px;
+              border-radius: 10px;
+              background: rgba(195, 136, 47, 1);
+              transform: translateX(-50%);
+              transition: all 250ms linear;
+            }
+            &:hover.meetus__list-item-content-link::after {
+              content: "";
+              position: absolute;
+              top: 100%;
+              left: 50%;
+              width: 30%;
+              height: 1px;
+              border-radius: 10px;
+              background: rgba(195, 136, 47, 1);
+              transform: translateX(-50%);
+            }
+          }
+        }
+      }
+    }
+    &__buttons {
+      display: flex;
+      justify-content: flex-end;
+      &-button {
+        display: flex;
+        align-items: center;
+        border: none;
+        background: none;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: #c3882f;
+        cursor: pointer;
+        &-block {
+          margin-left: 15px;
+          padding: 20px;
+          padding-right: 0;
+          border: 1.5px solid #c3882f;
+          box-sizing: border-box;
+          border-radius: 5px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,201 @@
+@media screen and(max-width: 480px) {
+  .recruiter {
+    background: #0c1013;
+    &__hero {
+      padding: 30px 0;
+      padding-bottom: 80px;
+      background: #0c1013;
+      &__list {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        gap: 10px;
+        &-item {
+          &-text {
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 35px;
+            letter-spacing: -0.01em;
+            max-width: 404px;
+            color: #b1b1b0;
+            &-span {
+              color: #c3882f;
+            }
+          }
+        }
+      }
+    }
+    &__doc {
+      padding: 80px 0;
+    }
+    &__list {
+      display: flex;
+      gap: 10px;
+      flex-direction: column;
+      margin-bottom: 60px;
+      &-item {
+        padding: 40px;
+        background: #fcfcfc;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        &-head {
+          font-family: "DM Sans";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 26px;
+          color: #0c1013;
+          padding-bottom: 5px;
+          position: relative;
+          margin-right: auto;
+          display: inline-flex;
+          &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 150%;
+            height: 1px;
+            background: #c3882f;
+          }
+        }
+        &-info {
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+          margin-top: 20px;
+          padding-left: 15px;
+          &-item {
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 28px;
+            color: #0c1013;
+            list-style: disc;
+          }
+        }
+      }
+    }
+    &__apply {
+      background: #c3882f;
+      border-radius: 5px;
+      border: none;
+      padding: 20px 30px;
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 20px;
+      text-align: center;
+      color: #fcfcfc;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      max-width: 210px;
+      width: 100%;
+    }
+  }
+}
+@media screen and(min-width: 876px) {
+  .recruiter {
+    background: #0c1013;
+    &__hero {
+      padding: 30px 0;
+      padding-bottom: 80px;
+      background: #0c1013;
+      &__list {
+        display: flex;
+        justify-content: space-between;
+        &-item {
+          &-text {
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 35px;
+            letter-spacing: -0.01em;
+            max-width: 404px;
+            color: #b1b1b0;
+            &-span {
+              color: #c3882f;
+            }
+          }
+        }
+      }
+    }
+    &__doc {
+      padding: 80px 0;
+    }
+    &__list {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 60px;
+      &-item {
+        padding: 40px;
+        background: #fcfcfc;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        width: calc((100% - 170px) / 2);
+        &-head {
+          font-family: "DM Sans";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 26px;
+          color: #0c1013;
+          padding-bottom: 5px;
+          position: relative;
+          margin-right: auto;
+          display: inline-flex;
+          &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 150%;
+            height: 1px;
+            background: #c3882f;
+          }
+        }
+        &-info {
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+          margin-top: 20px;
+          padding-left: 15px;
+          &-item {
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 28px;
+            color: #0c1013;
+            list-style: disc;
+          }
+        }
+      }
+    }
+    &__apply {
+      background: #c3882f;
+      border-radius: 5px;
+      border: none;
+      padding: 20px 30px;
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 20px;
+      text-align: center;
+      color: #fcfcfc;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      max-width: 210px;
+      width: 100%;
+    }
+  }
+}

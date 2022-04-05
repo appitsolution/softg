@@ -1,0 +1,20 @@
+<svg width="148" height="148" viewBox="0 0 148 148" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="73.8158" cy="73.8158" r="72.8158" stroke="#C3882F" stroke-width="2"/>
+<line x1="0.75" y1="-0.75" x2="12.8009" y2="-0.75" transform="matrix(0 1 1 0 119.925 84.8918)" stroke="#C3882F" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="0.75" y1="-0.75" x2="15.7046" y2="-0.75" transform="matrix(0 1 1 0 124.681 84.8918)" stroke="#C3882F" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M121.797 64.6013C121.612 64.2378 121.092 64.2378 120.907 64.6013L120.461 64.3739L120.907 64.6013L111.42 83.1805C111.25 83.5131 111.492 83.9078 111.866 83.9078H130.839C131.212 83.9078 131.454 83.5131 131.284 83.1805L121.797 64.6013Z" fill="#C3882F" stroke="#C3882F"/>
+<path d="M120.338 69.4736L118.147 75.6766L106.071 72.5751" stroke="#0C1013" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="0.75" y1="-0.75" x2="14.1372" y2="-0.75" transform="matrix(-1 0 0 1 105.745 76.8873)" stroke="#C3882F" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="0.75" y1="-0.75" x2="13.2429" y2="-0.75" transform="matrix(0.308463 0.951236 0.963577 -0.267432 87 62)" stroke="#C3882F" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M113.767 55.3701C113.767 59.6461 117.171 63.0975 121.352 63.0975C125.533 63.0975 128.937 59.6461 128.937 55.3701C128.937 51.0942 125.533 47.6428 121.352 47.6428C117.171 47.6428 113.767 51.0942 113.767 55.3701Z" fill="#C3882F" stroke="#C3882F"/>
+<line x1="72.7046" y1="4.4718" x2="72.7046" y2="10.4154" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="72.7046" y1="137.216" x2="72.7046" y2="143.16" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="4.47168" y1="78.6484" x2="12.8965" y2="78.6484" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="134.735" y1="78.6484" x2="143.16" y2="78.6484" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="91.7499" y1="66.8273" x2="94.1531" y2="62.2126" stroke="black" stroke-linecap="round"/>
+<line x1="93.3418" y1="68.7502" x2="96.2316" y2="66.8237" stroke="black" stroke-linecap="round"/>
+<line x1="93.7159" y1="71.438" x2="97.6773" y2="71.5404" stroke="black" stroke-linecap="round"/>
+<path d="M73.5 20L77.3971 73.25H69.6029L73.5 20Z" fill="#0C1013"/>
+<path d="M118.073 86.8841L72.1706 82.115L73.6279 74.4582L118.073 86.8841Z" fill="#0C1013"/>
+<circle cx="74" cy="77" r="6" fill="#0C1013"/>
+</svg>
